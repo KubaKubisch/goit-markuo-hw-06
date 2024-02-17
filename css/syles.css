@@ -7,8 +7,8 @@ body {
 .logo{
     font-family:'raleway', sans-serif;
     color: #4D5AE5;
-    letter-spacing: 0,03em;
-    line-height: 1,31;
+    letter-spacing: 0.03em;
+    line-height: 1.31;
     font-size: 18px;
     font-weight: 700;
     text-transform: uppercase;   
@@ -16,10 +16,116 @@ body {
 .logo-navy{
     color: #2E2F42;
 }
+.menu{
+    font-weight: 500;
+    line-height: 1,5;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+.menu-link{
+color: #2E2F42;
+}
 
+.menu-link:hover {
+    color: #404bff
+}
 
+.meni-link:focus {
+    color: #404bff
+}
 
+.start {
+background-color: #2E2F42;
+}
+
+.solutions { 
+   font-weight: 700;
+   font-size: 56px;
+   line-height: 3.5;
+   letter-spacing: 0.02em;
+   color: #ffffff;
+}
+
+.order {
+    color: #ffffff;
+    background-color: #4D5AE5;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+}
+button:hover {
+    background-color: #404bff;
+}
+
+.button:focus{
+    background-color: #404bff; 
+}
+.hidden{
+    display: none;
+}
 
 ul{
     list-style-type: none;
+}
+
+.titleee {
+    text-align: left;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2E2F42
+
+}
+
+.details {
+    text-align: left;
+    color: #434455
+}
+
+.team {
+    background-color: #F4F4FD ;
+    text-align: center;
+}
+
+.workers {
+    color: #2E2F42;
+    font-size: 36px;
+    font-weight: 700;
+    Letter-spacing: 0.02em;
+}
+
+.person {
+    color: #2E2F42;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.job {
+    color: #434455
+}
+
+.portfolio{
+    text-align: left;
+    color: #2E2F42;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.jobs {
+    text-align: left;
+    color: #434455
+}
+
+.end {
+    background-color: #2E2F42;
+}
+.last {
+    text-align: left;
+    color: #F4F4FD;
 }
