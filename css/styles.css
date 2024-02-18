@@ -34,7 +34,7 @@ line-height: 1.5;
 .menu-link:focus,
 .adres-link:hover,
 .adres-link:focus{
-    color: #404bff
+    color: #404bbf
 }
 .adres-link {
 line-height: 1.5;
@@ -69,7 +69,7 @@ background-color: #2E2F42;
 
 .order:focus,
 .order:hover{
-    background-color: #404bff;
+    background-color: #404BBF;
 }
 
 ul {
