@@ -21,13 +21,13 @@ body {
 }
 .menu {
     font-weight: 500;
-    line-height: 1,5;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2E2F42;
 }
 .menu-link {
-color: #2E2F42;
-line-height: 1.5;
+    color: #2E2F42;
+    line-height: 1.5;
 }
 
 .menu-link:hover,
@@ -37,14 +37,14 @@ line-height: 1.5;
     color: #404bbf
 }
 .adres-link {
-line-height: 1.5;
-letter-spacing: 0.02em;
-color: #434455;
+    letter-spacing: 0.02em;
+    color: #434455;
+    line-height: 1.5;
 }
 
 
 .start {
-background-color: #2E2F42;
+    background-color: #2E2F42;
 }
 
 .solutions { 
