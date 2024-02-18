@@ -28,32 +28,18 @@ body {
 .menu-link {
 color: #2E2F42;
 line-height: 1,5;
-
 }
 
-.menu-link:hover {
+.menu-link:hover,
+.menu-link:focus,
+.adres-link:hover,
+.adres-link:focus {
     color: #404bff
 }
-
-.menu-link:focus {
-    color: #404bff
-}
-.mail {
+.adres-link {
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #434455;
-}
-
-.menu:hover {
-    color: #404bbf;
-}
-.tel {
-    line-height: 1.5;
-letter-spacing: 0.02em;
-color: #434455;
-}
-.tel:hover {
-   color: #404bbf;
 }
 
 
@@ -78,12 +64,13 @@ background-color: #2E2F42;
     line-height: 1.5;
     letter-spacing: 0.04em;
     font-family: "Roboto",sans-serif;
+    cursor: pointer;
 }
-.button:hover {
+.order:hover {
     background-color: #404bff;
 }
-.button-cursor:pointer
-.button:focus {
+
+.order:focus {
     background-color: #404bff; 
 }
 
