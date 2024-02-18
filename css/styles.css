@@ -27,13 +27,13 @@ body {
 }
 .menu-link {
 color: #2E2F42;
-line-height: 1,5;
+line-height: 1.5;
 }
 
 .menu-link:hover,
 .menu-link:focus,
 .adres-link:hover,
-.adres-link:focus {
+.adres-link:focus{
     color: #404bff
 }
 .adres-link {
@@ -66,11 +66,11 @@ background-color: #2E2F42;
     font-family: "Roboto",sans-serif;
     cursor: pointer;
 }
-.order:hover {
+.order:hover{
     background-color: #404bff;
 }
 
-.order:focus {
+.order:focus{
     background-color: #404bff; 
 }
 
