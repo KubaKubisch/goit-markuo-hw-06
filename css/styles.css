@@ -66,12 +66,10 @@ background-color: #2E2F42;
     font-family: "Roboto",sans-serif;
     cursor: pointer;
 }
+
+.order:focus,
 .order:hover{
     background-color: #404bff;
-}
-
-.order:focus{
-    background-color: #404bff; 
 }
 
 ul {
