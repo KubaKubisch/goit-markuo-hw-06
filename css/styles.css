@@ -311,3 +311,7 @@ ul {
     border-top: none;
     margin-bottom: 8px;
 }
+
+.header-wrap {
+    display: flex;
+}
