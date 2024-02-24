@@ -195,6 +195,7 @@ ul {
     letter-spacing: 0.02em;
     font-size: 20px;
     line-height: 1.2;
+    margin-bottom: 8px;
 }
 
 .jobs {
@@ -202,6 +203,7 @@ ul {
     color: #434455;
     letter-spacing: 0.02em;
     line-height: 1.5;
+    margin-bottom: 8px;
 }
 
 .end {
@@ -277,3 +279,15 @@ ul {
     display: flex;
     gap: 24px;
 }
+
+.portfolio-listed {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
+}
+
+.portfolio-segregated {
+    width: calc((100% - 48px) / 3);
+}
+
