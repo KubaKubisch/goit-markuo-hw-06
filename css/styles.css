@@ -240,6 +240,7 @@ ul {
 
 .logo-footer-navy {
     color: #f4f4fd;
+    display: inline-block;
 }
 
 .container {
