@@ -314,4 +314,5 @@ ul {
 
 .header-wrap {
     display: flex;
+    align-items: center;
 }
