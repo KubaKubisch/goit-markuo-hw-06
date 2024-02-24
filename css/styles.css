@@ -69,6 +69,7 @@ padding: 24px 0;
 .menu-link {
     color: #2E2F42;
     margin-right: 40px;
+    padding: 24px 0;
 }
 
 .menu-link:hover,
@@ -87,6 +88,7 @@ padding: 24px 0;
 
 .start {
     background-color: #2E2F42;
+    padding: 188px 0;
 }
 
 .solutions { 
@@ -149,6 +151,7 @@ ul {
 .team {
     background-color: #F4F4FD;
     text-align: center;
+    padding: 120px 0;
 }
 
 .workers {
@@ -231,7 +234,8 @@ ul {
     letter-spacing: 0.03em;   
     text-decoration: none;
     margin-right: 76px;
-    display: flex;
+    display: inline-block;
+    margin-bottom: 16px;
 }
 
 .logo-footer-navy {
@@ -290,3 +294,12 @@ ul {
     width: calc((100% - 48px) / 3);
 }
 
+.navigation {
+    display: flex;
+    align-items: center;
+}
+
+.section-port {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
