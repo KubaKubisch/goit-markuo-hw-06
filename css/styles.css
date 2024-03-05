@@ -77,10 +77,9 @@ margin-right: 150px;
     color: #2E2F42;
     margin-right: 40px;
     padding: 24px 0;
-    position: relative;
 }
 
-.menu-link::after {
+.menu-link-active::after {
     content: "";
     position: absolute;
     left: 0;
