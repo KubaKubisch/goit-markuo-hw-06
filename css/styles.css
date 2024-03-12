@@ -286,7 +286,7 @@ ul {
     padding: 120px 0;
 }
 
-.hidden {
+.visually-hidden {
     position: absolute;
     width: 1px;
     height: 1px;
@@ -612,13 +612,18 @@ transform: translateY(0%);
     text-align: center;
     margin-bottom: 16px;
     font-weight: 500;
-    color: #2E2F42
+    color: #2E2F42;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 .form-field {
     margin-bottom: 8px;
 }
 
+.field {
+    position: relative;
+}
 .comment {
     margin-bottom: 16px;
 }
