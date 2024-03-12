@@ -36,7 +36,7 @@
         <section class="start">
             <div class="container container-start">
                 <h1 class="solutions">Effective Solutions for Your Business</h1>
-                <button class="service" type="button">Order Service</button>
+                <button class="service" type="button" data-modal-open>Order Service</button>
             </div>
         </section>
 
@@ -425,7 +425,7 @@
             </div>
             <div class="subscribe">
                 <p class="last-text">Subscribe</p>
-                    <form class="sub-form">
+                    <form class="subscribe-form">
                         <label for="mail" class="label-email">
                             <input
                                 type="email"
@@ -451,7 +451,7 @@
             </div>
         </div>
     </footer>
-    <div class="end-drop is-open">
+    <div class="backdrop is-open">
         <div class="modal">
             <button type="button" class="close-button">
                 <svg class="icon-form-close" width="8" height="8">
@@ -523,7 +523,7 @@
                 <div class="accept">
                     <input
                         type="checkbox"
-                        class="check visually-hidden"
+                        class="check hidden"
                         id="user-privacy"
                         value="true"
                         name="user-privacy"
