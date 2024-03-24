@@ -17,20 +17,77 @@
         <div class="container header-wrap">
             <nav class="navigation">
                 <a class="logo" href="./index.html">Web<span class="logo-navy">Studio</span></a>
-                <ul class="left-navigation">
+                <ul class="left-navigation is-open">
                         <li class="menu"><a class="menu-link menu-link-active" href="./index.html">Studio</a></li>
                         <li class="menu"><a class="menu-link" href="">Portfolio</a></li>
                         <li class="menu"><a class="menu-link" href="">Contacts</a></li>
                 </ul>
             </nav>
             <address class="adres">
-                <ul class="right-navigation">
+                <ul class="right-navigation is-open">
                     <li><a class="adres-link" href=mailto:info@devstudio.com>info@devstudio.com</a></li>
                     <li><a class="adres-link" href=tel:+110001111111>+11 (000) 111-11-11</a></li>
                 </ul>
             </address>
+            <button class="menu-hamburger-button">
+                <svg class="hamburger-icon" width="24" height="24">
+                    <use href="./images/icons.svg#icon-hamburger"></use>
+                </svg>
+            </button>
         </div>
-    </header>
+        <div class="menu-hamburger is-open-hamburger">
+            <button type="button" class="close-button">
+                <svg class="icon-form-close" width="8" height="8">
+                    <use href="./images/icons.svg#icon-close"></use>
+                </svg>
+            </button>
+            <div class="left-navi-mobile">
+                <ul class="left-navi-list-mobile hamburger">
+                    <li>
+                        <a href="./index.html" class="menu-link hamburger menu-link-active">Studio</a>
+                    </li>
+                    <li><a class="menu-link hamburger" href="">Portfolio</a></li>
+                    <li><a class="menu-link hamburger" href="">Contacts</a></li>
+                </ul>
+            </div>
+            <div class="right-navi-mobile">
+                <ul class="right-navi-list-mobile hamburger">
+                    <li><a class="adres-link hamburger" href=mailto:info@devstudio.com>info@devstudio.com</a></li>
+                    <li><a class="adres-link hamburger" href=tel:+110001111111>+11 (000) 111-11-11</a></li>
+                </ul>
+                <ul class="mobile-menu hamburger">
+                    <li class="socials-list">
+                        <a class="socials-footer-link" href="">
+                            <svg class="svg-two" width="24" height="24">
+                                <use href="./images/icons.svg#icon-instagram-2"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="socials-list">
+                        <a class="socials-footer-link" href="">
+                            <svg class="svg-two" width="24" height="24">
+                                <use href="./images/icons.svg#icon-twitter-1"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="socials-list">
+                        <a class="socials-footer-link" href="">
+                            <svg class="svg-two" width="24" height="24">
+                                <use href="./images/icons.svg#icon-facebook-1"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="socials-list">
+                        <a class="socials-footer-link" href="">
+                            <svg class="svg-two" width="24" height="24">
+                                <use href="./images/icons.svg#icon-linkedin-1"></use>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+   </header>
     <main>
 
         <section class="start">
