@@ -72,63 +72,13 @@ ul p {
 
 
 
-.adres-link {
-    letter-spacing: 0.02em;
-    color: #434455;
-    line-height: 1.5;
-    margin-right: 40px;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 
 
-.start {
-    background-color: #2E2F42;
-    padding: 188px 0;
-    max-width: 1440px;
-    width: 100%;
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    margin: auto;
 
-}
 
-.solutions { 
-   font-weight: 700;
-   font-size: 56px;
-   line-height: 1.07;
-   letter-spacing: 0.02em;
-   color: #ffffff;
-   text-align: center;
-   max-width: 496px;
-   margin: 0 auto;
-   margin-bottom: 48px;
-   display: block;
-}
 
-.service {
-    color: #ffffff;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
-    font-family: "Roboto",sans-serif;
-    cursor: pointer;
-    background-color: #4D5AE5;
-    display: block;
-    margin: 0 auto;
-    min-width: 169px;
-    height: 56px;
-    border: none;
-    border-radius: 4px;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.service:focus,
-.service:hover{
-    background-color: #404BBF;
-}
+
 
 ul {
     list-style-type: none;
@@ -324,22 +274,7 @@ ul {
     margin-bottom: 8px;
 }
 
-.header-wrap {
-    display: flex;
-    align-items: center;
-}
 
-.menu-link-active{
-    position: relative;
-    color: #404BBF;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.container-start{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
 
 .icon-container {
     display: flex;
@@ -421,11 +356,6 @@ transform: translateY(0%);
     margin-right: 120px;
 }
 
-.socials-footer {
-    display: flex;
-    gap: 16px;
-    justify-content: space-evenly;
-}
 
 .footer-list {
     display: flex;
@@ -433,22 +363,9 @@ transform: translateY(0%);
     justify-content: space-evenly;
 }
 
-.socials-footer-link {
-    width: 100%;
-    height: 100%;
-    background-color: #4d5ae5;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
-}
 
-.socials-footer-link:hover,
-.socials-footer-link:focus,
-.socials-footer-link:active {
-    background-color: #31d0aa;
-}
+
+
 
 .last-text {
     font-weight: 500;
@@ -461,10 +378,7 @@ transform: translateY(0%);
     display: block;
 }
 
-.socials-list {
-    width: 40px;
-    height: 40px;
-}
+
 
 .socials-links {
     width: 100%;
@@ -840,6 +754,10 @@ transform: translateY(0%);
     color: #404bbf
 }
 
+.adres-link:active {
+    color: #404bbf
+}
+
 .menu-link {
     font-size: 16px;
     font-weight: 500;
@@ -876,6 +794,147 @@ transform: translateY(0%);
     font-style: normal;
 }
 
+.adres-link {
+    letter-spacing: 0.04em;
+    color: #434455;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    line-height: 1.17;
+    font-style: normal;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.adres-link.hamburger {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.menu-hamburger-button {
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    line-height: 0;
+}
+
+.hamburger-icon {
+    fill: #2f2f37;
+    cursor: pointer;
+}
+
+.menu-hamburger {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 100;
+    background-color: #fff;
+    padding-top: 72px;
+    padding-left: 16px;
+    padding-bottom: 40px;
+    padding-right: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transform: translateX(100%);
+}
+
+.menu-hamburger.is-open-hamburger {
+    transform: translateX(0);
+}
+
+.mobile-menu.hamburger {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 48px;
+}
+
+.socials-list {
+    width: 40px;
+    height: 40px;
+}
+
+
+.service {
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    font-family: "Roboto",sans-serif;
+    cursor: pointer;
+    background-color: #4D5AE5;
+    display: block;
+    margin: 0 auto;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    border-radius: 4px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.service:focus,
+.service:hover{
+    background-color: #404BBF;
+}
+
+.solutions { 
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+    max-width: 200px;
+    margin: 0 auto;
+    margin-bottom: 48px;
+ }
+
+ .socials-footer-link {
+    width: 100%;
+    height: 100%;
+    background-color: #4d5ae5;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
+}
+
+.socials-footer-link:hover,
+.socials-footer-link:focus,
+.socials-footer-link:active {
+    background-color: #31d0aa;
+}
+
+.start {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/heroimage-mobile.jpg);
+max-width: 320px;
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+text-align: center;
+padding: 72px 0;
+margin: 0 auto;
+background-color: rgb(46, 47, 66);
+}
+
+
+@media (min-resolution: 192dpi) {
+    .start {
+        background-image: linear-gradient(
+                rgba(46, 47, 66, 0.7),
+                rgba(46, 47, 66, 0.7)
+            ),
+            url(../images/heroimage-mobile@2x.jpg);
+    }}
 
 
 @media (min-width: 768px) {
@@ -925,7 +984,41 @@ transform: translateY(0%);
         pointer-events: auto;
     }
 
+    .menu-hamburger-button,
+    .menu-hamburger {
+       display: none; 
+    }
+
+    .solutions { 
+        font-size: 56px;
+        max-width: 496px;
+    }
+
+    .start {
+        background-image: linear-gradient(
+                rgba(46, 47, 66, 0.7),
+                rgba(46, 47, 66, 0.7)
+            ),
+            url(../images/heroimage-tablet.jpg);
+        max-width: 768px;
+        padding: 112px 0;
+    }
+
 }
+
+@media (min-width: 768px) and (min-resolution: 192dpi) {
+    .start {
+        background-image: linear-gradient(
+                rgba(46, 47, 66, 0.7),
+                rgba(46, 47, 66, 0.7)
+            ),
+            url(../images/heroimage-tablet@2x.jpg);
+    }
+}
+
+
+
+
 
 
 
@@ -956,10 +1049,33 @@ transform: translateY(0%);
         justify-content: flex-end;
     }
      
+    .adres-link {
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+    }
+
+    .start {
+        background-image: linear-gradient(
+                rgba(46, 47, 66, 0.7),
+                rgba(46, 47, 66, 0.7)
+            ),
+            url(../images/heroimage-desktop.jpg);
+        max-width: 1440px;
+        padding: 188px 0;
+    }
 
 
+}
 
-
+@media (min-width: 1158px) and (min-resolution: 192dpi) {
+    .start {
+        background-image: linear-gradient(
+                rgba(46, 47, 66, 0.7),
+                rgba(46, 47, 66, 0.7)
+            ),
+            url(../images/heroimage-desktop@2x.jpg);
+    }
 }
 
 
