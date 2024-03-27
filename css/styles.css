@@ -75,7 +75,8 @@ ul p {
 
 .container {
     max-width: 320px;
-    padding: 0 16px;
+    padding-left: 16px;
+    padding-right: 16px;
     margin-left: auto;
     margin: 0 auto;
 }
@@ -461,9 +462,8 @@ background-color: rgb(46, 47, 66);
 .portfolio-listed {
     display: flex;
     flex-wrap: wrap;
-    column-gap: 24px;
-    row-gap: 48px;
-    margin: 0 auto;
+    justify-content: center;
+    row-gap: 72px;
 }
 
 .portfolio-segregated:hover .transition-text,
@@ -976,10 +976,10 @@ transform: translateY(0%);
     }
 
     .portfolio-listed {
-        display: flex;
-        flex-wrap: center;
+        justify-content: center;
+        flex-wrap: wrap;
         column-gap: 24px;
-        row-gap: 72px;
+        row-gap: 64px;
         margin: 0 auto;
     }
 
@@ -1058,8 +1058,8 @@ transform: translateY(0%);
 
     .container {
         width: 1158px;
-        margin: 0 auto;
-        padding: 0 15px;
+        padding-left: 15px;
+        padding-right: 15px;
     }
 
 
@@ -1104,11 +1104,8 @@ transform: translateY(0%);
     }
 
     .icon-container {
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        display: block;
         background-color: #F4F4FD;
-        background-size: 264px;
         padding: 24px 100px;
         border-radius: 4px;
         margin-bottom: 8px;
@@ -1116,6 +1113,9 @@ transform: translateY(0%);
         width: 264px;
         height: 112px;
         border: 1px solid #8e8f99;
+        display:flex;
+        justify-content: center;
+        align-items: center;
     }
 
     .svg-one {
@@ -1137,9 +1137,6 @@ transform: translateY(0%);
         padding: 120px 0;
     }
 
-    .portfolio-listed {
-        row-gap: 48px;
-    }
 
     .portfolio-segregated {
         width: calc((100% - 48px) / 3);
