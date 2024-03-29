@@ -528,9 +528,9 @@ transform: translateY(0%);
 }
 
 .end-container {
-    display: flex;
-    align-items: baseline;
+    align-items: center;
     gap: 72px;
+    flex-direction: column;
 }
 
 .logo-footer {
