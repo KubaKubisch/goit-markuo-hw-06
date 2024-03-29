@@ -531,6 +531,7 @@ transform: translateY(0%);
     align-items: center;
     gap: 72px;
     flex-direction: column;
+    display: flex;
 }
 
 .logo-footer {
